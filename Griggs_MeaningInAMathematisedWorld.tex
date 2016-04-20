@@ -1,0 +1,138 @@
+\documentclass[12pt]{article}
+% \usepackage{inputenc}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage{verbatim}
+\usepackage{parskip}
+\setcounter{secnumdepth}{1}
+\pagestyle{myheadings}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{fontspec}
+%\setmainfont{Georgia}
+\setlength{\parindent}{0cm}
+% These next three lines hide the citation keys in the bibliography, pretty cool.
+%\makeatletter
+%\def\@biblabel#1{}
+%\makeatother
+% These lines define the hanging indent! NEAT!
+\makeatletter
+% \renewcommand\@biblabel[1]{#1} % No brackets for the references
+\def\@biblabel#1{}
+\renewenvironment{thebibliography}[1]
+     {\section*{\refname}%
+      \@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin20pt% change 20 pt according to your needs
+            \advance\leftmargin\labelsep
+            \setlength\itemindent{-20pt}% change using the inverse of the length used before
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+\renewcommand\newblock{\hskip .11em\@plus.33em\@minus.07em}
+\makeatother
+
+\usepackage[compact]{titlesec}  
+\titlespacing{\section}{0pt}{0pt}{0pt}
+\titleformat*{\section}{\normalsize\bfseries\filcenter}
+\titleformat*{\subsection}{\footnotesize\bfseries}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+\titleformat*{\paragraph}{\footnotesize\bfseries}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
+
+\begin{document}
+% Manual Heading
+\singlespacing
+{\raggedleft{}Gabriel Griggs} \\
+Professor Cyril O'Regan \\
+19th Century Theology \\
+Friday, March 4th 2016\\
+
+\section*{Meaning in a Mathematised World: Kant and Dostoevsky on Thoedicy (Through the Lens of Ucnik)}
+
+\doublespacing
+\subsection*{The Mathematised World: A Turn Towards Husserl}
+
+In this paper, I will be entering into conversation with L'ubica Ucnik's paper titled ``The Problem of Morality in a Mathematised Universe: Time and Eternity in Dostoevsky's \emph{The Brothers Karamazov} and the Concept of `Love' in Patocka's Last Essay.'' Despite its absence from the title, Kant's essay on theodicy features heavily in this paper and is set in contrast to the response of theodicy given by Dostoevsky in \emph{The Brothers Karamazov}. Both of this accounts, according to Ucnik, are heavily influenced by what she terms the `mathematised world', in line with Husserl who gives a philosophical-historical analysis of the movement towards conceiving the world as a mathematically constructed and determinable object which undergirds the positive scientific endeavor. Ultimately, the question which Ucnik asks is this: can there be meaning in a mathematised world? She evaluates the answers of Kant and Dostoevsky before turning to the work of the Czech phenomenologist Patocka. In order to enter into conversation, we must have a proper background in what it means for the universe to be mathematised, so we will turn to Husserl's essay ``The Crisis of European Sciences and Transcendental Phenomenology.''
+
+\paragraph*{First Fragments of Universal Positive Science}
+
+	From where does this language of the mathematised universe come? One place in particular is in the work of Husserl, who wonders whether the world, ``and human existence in it, truthfully have a meaning if the sciences recognize as true only what is objectively established'' in the fashion of the positive sciences which focus merely on the world as fact and treat objective truth as ``exclusively a matter of establishing what the world, the physical as well as the spiritual world, is in fact.''\footnote{Husserl, 6.} Husserl gives a historical account of this transition from a science which was not positivist in nature to one that ``rigorously grounded truth''\footnote{Husserl, 7.} in the objectivity of the positive sciences of mere correlation, where as Kant warns ``our use of the concepts of cause and effect cannot be extended beyond nature''\footnote{Ucnik, 74.} and which is really more of a product of the way we think than it is an actual phenomenon in objective reality. The first fragments of a drive for a universally valid positivistic method for investigating the world began in the mathematics of the Greeks in which an ``immense change of meaning'' took place ``whereby \emph{universal} tasks were set, primarily for mathematics \ldots tasks of a style which was \emph{new in principle}, unknown to the ancients.''\footnote{Husserl, 21.} Furthermore, with Euclidean geometry arises the important concept of an axiomatic science: ``with Euclidean geometry had grown up the highly impressive idea of a systematically coherent deductive theory, aimed at a most broadly and highly conceived ideal goal, resting on `axiomatic' fundamental concepts and principles, proceeding according to apodictic arguments -- a totality formed of pure rationality, a totality whose unconditioned truth is available to insight and which consists exclusively of unconditioned truths recognized through immediate and mediate insight.''\footnote{Husserl, 21.} 
+
+
+	\paragraph*{The Conquest of the Infinite} This was only the beginning, he tells us, for the modern period brings with it ``the actual discovery and conquest of the infinite mathematical horizons'' which eventually lead to a rationalization of the natural sciences creating the ``completely new idea of \emph{mathematical natural science}.''\footnote{Husserl, 22 - 23.} This new mathematised natural science finds its first practitioner, Husserl tells us, in Galileo whose mathematical natural science led to \emph{nature itself} being ``idealized under the guidance of the new mathematics; [such that] nature itself becomes \ldots a mathematical manifold.''\footnote{Husserl, 23.} Husserl asks and answers our own question: ``\emph{What is the meaining of this mathematization of nature?}''\footnote{Husserl, 23.} He tells us that before the dominance of the positivistic, scientific mindset the world was given in ``everyday sense-experience'' in a ``subjectively relative way,'' such that we have discrepancies in the ways in which we see the world -- but, despite this, ``we believe in \emph{the} world, whose things only appear to us differently but are the same.''\footnote{Husserl, 23.} Essentially, as a result of pursuing knowledge in this shared world, that is, in pursuing knowledge of the `true' and objective world, humanity was diverted by the ``empirical art of measuring and its empirically, practically objectivizing function, through a change from the practical to theoretical interest'' as it went from investigating mathematics for practical purposes to investigating objects in the mathematical realm.\footnote{Husserl, 28.} In this turn, the empirical art of measuring ``was idealized and thus turned into the purely geometrical way of thinking.''\footnote{Husserl, 28.} It is easy to see the appeal of such an approximate science in that it yields some approximation of how things are, but only an approximation ``beginning with what is empirically given, to the geometrical ideal shape which functions as a guiding pole.''\footnote{Husserl, 28.}
+
+At this point in the transition, the empirical tool of measuring gives us an approximation of the real world which we know to be held together by a sort of ``\emph{universal causal regulation}'' such that ``\emph{all that is together in the world} has a universal immediate or mediate way of \emph{belonging together}\ldots''\footnote{Husserl, 28.} We have this knowledge of the world as an ``all-encompassing unity, a \emph{whole} (even though it is finite),'' in contrast to the world as being merely an aggregation of facts or ``mere totality,'' even in the life of ``prescientific knowing.''\footnote{Husserl, 31.} The transformation to `scientific knowing' is completed (and meaningful) ``only if a method can be devised of \emph{constructing}, systematically and in a sense in advance, the world, the infinitude of causalities'' from a small set of axiom-like propositions which have been established directly from experience.\footnote{Husserl, 32.} On top of this requirement is added that of being able to verify this construction ``in spite of the infinitude [of experience].''\footnote{Husserl, 32.} It is at this point that mathematics leads the way through its creation of ideal objects and principles which have been established in experience -- thereby constructing an ideal world in which we have apodictic certainty of ``true being-in-itself'' because this world has been ``apodictically generated.''\footnote{Husserl, 32.} 
+
+This turn towards the ideal, constructed realm does not stay contained within the realm of mathematics. Instead, due to Galileo's confidence in the possibility of achieving ``an objective science of the world,'' he pursued an idea of nature ``which is construvtively determinable in the same manner in all its \emph{other aspects.}''\footnote{Husserl, 33.} In so doing, the turn is complete and nature is conceived of as in itself being mathematically constructible. This all-encompassing mathematisation gains its power not just as a descriptive tool; it also has predictive power for ``if one has the formulae, one already possesses, in advance, the practically desired prediction of what is to be expected with empirical certainty in the intuitively given world of concretely actual life, in which mathematics is merely a special [form of] praxis.''\footnote{Husserl, 43.} Husserl then asserts that mathematisation, ``with its realized formulae, is the achievement which is decisive for life.''\footnote{Husserl, 43.} It is precisely this mathematisation which is at work in the background of Kant's project and, as Ucnick suggests, in the project of Dostoevsky with Ivan's Euclidean geometry. In a realm in which we are both able to construct and predict reality, and in fact with great success as the positive sciences have shown, the question emerges: what meaning can there be in this world? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ suggesting that in a world without speculative metaphysics and rational religion, ``Kant's achievement is to rethink the role of God and the place of humans in this modern, mathematised universe; which ceases to have meaning in itself, turning into a mechanically self-driven machine, oblivious to human ends and  hopes, and devoid of any moral precepts.''\footnote{Ucnik, 74.} In this mathematised universe, God becomes irrelevant because he is outside the sphere of knowledge knowable by scientific investigation and, therefore, he is superfluous for its investigation: ``If nature is mathematical, as science conceives of it, then humans can devise ways to know it. God is superfluous in the scientific ediface.''\footnote{Ucnik, 74.}
+
+
+  
+
+
+
+
+
+Before continuing with our analysis, however, let us focus in on the specific problem within Kant's project: theodicy, by which Kant understands ``the defense of the highest wisdom of the creator against the charge which reason brings against it for whatever is counterpurposive in the world.''\footnote{\emph{Ibid.}, 17.} In order to argue for the ``miscarriage of all philosophical trials in theodicy,''\footnote{Kant, Immanuel. \emph{Religion within the Boundaries of Mere Reason and Other Writings.} Trans. George Di Giovanni and Allen Wood. Ed. George Di Giovanni and Allen Wood. New York: Cambridge University Press, 2006. 17.} Kant writes a short essay with a peculiar structure: it is structured as a series of 'because' statements: `$ A \because   B\because C$ '. Due to the fact that we can express the statement `$ \alpha \because \beta $'  as the statement `$\beta \Rightarrow \alpha $',\footnote{That is, if $\beta$ then $\alpha$ or $\beta$ implies $\alpha$.} this logical structure suggests that the most fundamental aspect of the argument is contained in the 'C' section. 
+
+\paragraph*{Section C: The Authentic-Doctrinal Disjunctive}
+
+
+	
+	
+	
+	
+
+ \begin{comment}
+ \begin{quote}
+	 \singlespacing
+	 \footnotesize
+	 
+	 And about three o'clock Jesus cried with a loud voice, ``Eli, Eli, lema sabachtani?'' that is, ``My God, my God, why have you forsaken me?'' [Mt 27:46]
+	 
+ \end{quote}
+ \end{comment}
+ 
+\pagebreak
+\begingroup
+\renewcommand{\section}[2]{}	% in article, this becomes reference, so we suppress the normal \section\refname
+\centerline{\textbf{Bibliography}} 
+\begin{thebibliography}{9}
+
+\bibitem{Kant}
+Kant, Immanuel. \emph{Religion within the Boundaries of Mere Reason and Other Writings.} Trans. George Di Giovanni and Allen Wood. Ed. George Di Giovanni and Allen Wood. New York: Cambridge University Press, 2006. 
+\end{thebibliography}
+
+\endgroup
+
+\end{document}
