@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.25)  21 APR 2016 11:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.3.25)  22 APR 2016 13:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -403,22 +403,22 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 78.
 (c:/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2] [3] [4] [5]
-[6] [7] [8] [9] [10] [11] [12] [13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
- [14]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 156.
+ [16]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 156.
 
 (./Griggs_MeaningInAMathematisedWorld.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 156.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 156.
 Package rerunfilecheck Info: File `Griggs_MeaningInAMathematisedWorld.out' has 
 not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 156.
  ) 
 Here is how much of TeX's memory you used:
- 6784 strings out of 493033
- 97165 string characters out of 6137748
+ 6793 strings out of 493033
+ 97263 string characters out of 6137748
  194599 words of memory out of 5000000
  10169 multiletter control sequences out of 15000+600000
  11644 words of font info for 45 fonts, out of 8000000 for 9000
@@ -432,11 +432,11 @@ pe1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr8.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti10.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb>
-Output written on Griggs_MeaningInAMathematisedWorld.pdf (14 pages, 158450 byte
+Output written on Griggs_MeaningInAMathematisedWorld.pdf (16 pages, 162260 byte
 s).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 75 named destinations out of 1000 (max. 500000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 84 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
